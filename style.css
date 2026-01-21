@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.game {
+    display: flex;
+    gap: 20px;
+}
+
+canvas {
+    background: #000;
+    border: 2px solid #fff;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 {
+    margin: 0;
+}
+
+.controls {
+    font-size: 14px;
+    opacity: 0.8;
+}
+.pause-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.pause-btn:hover {
+    background: #45a049;
+}
+
+.pause-btn:active {
+    transform: scale(0.98);
+}
